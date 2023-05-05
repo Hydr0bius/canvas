@@ -39,4 +39,25 @@ const canvas3 = document.getElementById('test2');
         d.fillRect(210,60,90,90);
         d.fillRect(140,150,70,100);
         d.fillRect(100,190,40,110);
-        d.fillRect(210,190,40,110);
+        d.fillRect(210,190,40,110);      
+// -------------------------------------------------------------
+        
+const canvas2 = document.getElementById('test3');
+const c = canvas2.getContext("2d");
+
+    canvas2.width = 400;
+    canvas2.height = 400;
+
+    c.fillStyle = "black";
+    c.beginPath();
+    c.moveTo(50,50);
+    c.lineTo(50,400);
+    c.lineTo(400,400);
+    c.fill();
+
+    c.fillStyle= "white";
+    c.beginPath();
+    c.moveTo(100,175);
+    c.lineTo(275,350);
+    c.lineTo(100,350);
+    c.fill();

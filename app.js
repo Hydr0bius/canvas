@@ -24,3 +24,19 @@ const canvas1 = document.getElementById('test1');
         e.beginPath();
         e.arc(300,200,50,0,2*Math.PI);
         e.fill();
+// -------------------------------------------------------------
+const canvas3 = document.getElementById('test2');
+        const d = canvas3.getContext('2d');
+
+        canvas3.width = 350;
+        canvas3.height = 300;
+
+        d.fillStyle= "darkgreen"
+        d.fillRect(0,0,350,300);
+
+        d.fillStyle="black"
+        d.fillRect(50,60,90,90);
+        d.fillRect(210,60,90,90);
+        d.fillRect(140,150,70,100);
+        d.fillRect(100,190,40,110);
+        d.fillRect(210,190,40,110);

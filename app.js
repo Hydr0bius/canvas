@@ -61,3 +61,23 @@ const c = canvas2.getContext("2d");
     c.lineTo(275,350);
     c.lineTo(100,350);
     c.fill();
+//     --------------------------------------------------------------
+function cuadrado(x,y,color){
+        const canvas4 = document.getElementById('test4');
+        const c = canvas4.getContext("2d");
+
+        c.fillStyle = color;
+        c.fillRect(x,y,50,50,);
+        c.strokeStyle = "black";
+        c.strokeRect(x,y,50,50);
+};
+
+cuadrado(0,0,"green");
+cuadrado(0,100,"green");
+cuadrado(100,0,"green");
+cuadrado(100,100,"green");
+cuadrado(50,50,"blue");
+cuadrado(0,50,"yellow");
+cuadrado(50,0,"yellow");
+cuadrado(50,100,"yellow");
+cuadrado(100,50,"yellow");
